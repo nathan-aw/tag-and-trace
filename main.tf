@@ -18,6 +18,10 @@ resource "aws_instance" "app_server" {
   instance_type = "t2.micro"
 
   tags = {
-    Name = "ExampleAppServerInstance"
+    Name      = "ExampleAppServerInstance"
+    Name      = "ExampleAppServerInstance"
+    git_org   = "nathan-aw"
+    git_repo  = "tag-and-trace"
+    yor_trace = "cacce97f-39a1-40a7-9723-1d07cc7ea942"
   }
 }
